@@ -1,0 +1,16 @@
+//for loop (easier syntax)
+// and below is a while loop
+
+for ( var i = 1 ; i < 10 ; i++ ) { 
+  console.log(i);
+}
+
+//while loop
+var k= 1;
+var loop = function(){
+    while(k<10){
+        loop = k++;
+        console.log(k);
+    }
+};
+loop();

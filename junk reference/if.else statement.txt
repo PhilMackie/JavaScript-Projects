@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+var d = 105;
+
+
+if (d <= 100) {
+  alert("Less than 100")
+}else{
+  alert("it's greater than or equal to 100")
+        }
+
+</script>
+</body>
+</html> 

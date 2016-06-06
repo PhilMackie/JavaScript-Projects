@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+
+var slaying = true;
+var youHit = Math.floor(Math.random()*2.5);
+
+damageThisRound = Math.floor(Math.random()*5+1);
+var totalDamage = 0;
+
+while(slaying){
+        slaying = false;
+         if (youHit>=1){
+            totalDamage += damageThisRound
+            if (totalDamage>=4){
+                alert("Congratulations, you've slain the Dragon! All those people in high school were wrong about you!");
+            }else{
+              alert("You hit, but didn't pierce the armor. Yer ass is dead.")
+            }
+        }else{
+            alert("Yo, yer ass is dead.")
+        }
+};
+
+
+</script>
+</body>
+</html> 
